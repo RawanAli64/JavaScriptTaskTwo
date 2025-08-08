@@ -125,7 +125,17 @@ body{
         justify-content: flex-end;
         cursor: pointer;
     }
- 
+     #sectionOne h1 {
+        font-size: 35px; 
+        }
+
+        #sectionOne p {
+            font-size: 18px;
+        }
+
+        .center {
+            margin: 50% 20px; 
+        }
      .mobile-bottom-bar {
     display: none; 
     position: fixed;
@@ -157,12 +167,18 @@ body{
         justify-content: flex-end;
         cursor: pointer;
     }
-    #sectionOne h1{
-    font-size: 25px;
-   }
-    #sectionOne p{
-    font-size: 16px;
-    }
+       #sectionOne h1 {
+        font-size: 35px; 
+        }
+
+        #sectionOne p {
+            font-size: 18px;
+        }
+
+        .center {
+            margin: 50% 20px; 
+        }
+    
     .mobile-bottom-bar {
     display: none; 
     position: fixed;
@@ -214,6 +230,7 @@ div.content p{
     font-weight: bold;
     font-style: italic;
     color: black;
+
 }
 
 #videoContent {
@@ -224,6 +241,34 @@ div.content p{
 .watch-video{
     margin: 10px;
     width: 300px;
+}
+@media (max-width:950px){
+ div.content{
+     width: 80%;
+    }
+    #videoContent {
+     width: 80%;
+    }
+
+}
+@media (max-width:750px){
+    div.content{
+     width: 95%;
+    }
+    #videoContent {
+     width: 95%;
+    }
+}
+
+@media (max-width:500px){
+    div.content{
+     width: 95%;
+     height: 300px;
+     overflow: auto;
+    }
+    #videoContent {
+     width: 95%;
+    }
 }
 /* End Of Section Three */
 #sectionFour{
@@ -263,5 +308,14 @@ div.content p{
   background-color: #f1f1f1;
   border-radius: 0 0 6px 6px; 
   font-size: 16px;
+}
+@media (max-width:950px){
+    .accordion {
+      width: 95%;}
+}
+@media (max-width:750px){
+    .accordion {
+      width: 95%;
+}
 }
 /* End Of Section Four */
