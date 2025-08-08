@@ -229,6 +229,7 @@ div.content{
 div.content p{
     text-align: center;
     font-size: 18px;
+    padding: 10px;
     font-weight: bold;
     font-style: italic;
     color: black;
@@ -281,8 +282,11 @@ div.content p{
 .accordion {
   width: 60%;
   margin: auto;
+  padding: 20px; 
+  background-color: #fafafa; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box;
 }
-
 .accordion-header {
   width: 100%;
   padding: 15px;
