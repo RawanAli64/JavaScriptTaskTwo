@@ -201,8 +201,9 @@ body{
 }
 /* End Of Section One */
 #sectionTwo{
-    min-height: 100vh;
+    height: auto;
     margin-top: 20px;  
+    padding: 30px 0;
 }
 .showAndHide{
     margin: 10px;
@@ -216,8 +217,9 @@ display: none;
 }
 /* End Of Section Two */
 #sectionThree{
-    min-height: 100vh;
-    margin-top: 20px;  
+    height: auto;
+    margin-top: 20px; 
+    padding: 30px 0; 
 }
 div.content{
     border: 1px solid rebeccapurple;
@@ -272,8 +274,9 @@ div.content p{
 }
 /* End Of Section Three */
 #sectionFour{
-    min-height: 100vh;
+    height: auto;
     margin-top: 20px; 
+    padding: 30px 0;
 }
 .accordion {
   width: 60%;
